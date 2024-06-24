@@ -1,0 +1,15 @@
+{
+  "name": "otp-manger",
+  "version": "1.0.0",
+  "description": "A system for generating and validating time-based 6-digit codes as otp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "abuelhijarwad",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
