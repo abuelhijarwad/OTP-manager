@@ -1,6 +1,6 @@
 {
-  "name": "otp-manger",
-  "version": "1.0.2",
+  "name": "instant-otp",
+  "version": "1.0.3",
   "description": "A system for generating and validating time-based 6-digit codes as otp.",
   "main": "index.js",
   "scripts": {

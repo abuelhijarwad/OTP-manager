@@ -1,4 +1,4 @@
-# OTP (One-Time Password) manger
+# OTP (One-Time Password) manager - InstantOTP
 
 A simple and secure Node.js module for generating and validating one-time passwords (OTPs) based on a username. This can be used for two-factor authentication (2FA) or other security purposes.
 
@@ -13,7 +13,7 @@ A simple and secure Node.js module for generating and validating one-time passwo
 You can install this module via npm:
 
 ```sh
-npm install otp-generator
+npm install instant-otp
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install otp-generator
 First, import the module in your project:
 
 ```javascript
-const OTP = require('otp-generator');
+const OTP = require('instant-otp');
 ```
 
 ### Creating an OTP Instance
