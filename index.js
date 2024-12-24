@@ -25,7 +25,7 @@ class otp {
     const currentTimestamp = Math.floor(Date.now() / 1000);  // Current time in seconds
     for (let i = 0; i <= 60*mins; i += 60) {  
         const timestampToCheck = currentTimestamp - i;
-        const expectedCode = this.creat(username, timestampToCheck);
+        const expectedCode = this.create(username, timestampToCheck);
         if (providedCode === expectedCode) {
             return true;
         }

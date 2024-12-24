@@ -1,6 +1,6 @@
 {
   "name": "instant-otp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A system for generating and validating time-based 6-digit codes as otp.",
   "main": "index.js",
   "scripts": {
